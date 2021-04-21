@@ -41,9 +41,8 @@ namespace LojaApi.Servico
         public void Update(string id, Produto produtos)
         {
             _produtos.ReplaceOne(p => p.Id == id, produtos);
+        
         }
 
-
-        
     }
 }

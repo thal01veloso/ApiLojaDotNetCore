@@ -1,6 +1,7 @@
 ﻿
 
 using LojaApi.Entity;
+using LojaApi.Interface;
 using LojaApi.Servico;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,13 +14,21 @@ namespace LojaApi.Controller
     public class ProdutoController : ControllerBase
     {
         private readonly ProdutoService _produtoService;
+        
+
         public ProdutoController(ProdutoService produtoService)
         {
             _produtoService = produtoService;
         }
+
+       
+
         [HttpGet]
-        public ActionResult<List<Produto>> Get() =>
-            _produtoService.Get();
+        public ActionResult<List<Produto>> Get()
+        {
+           return _produtoService.Get();
+        }
+
         [HttpPost]
         public ActionResult<Produto> Create([FromBody] Produto produto)
         {
@@ -52,7 +61,7 @@ namespace LojaApi.Controller
         }
 
         [HttpPut("{id}")]
-        public IActionResult AlterarProduto(string id,Produto produto)
+        public IActionResult AlterarProduto(string id, Produto produto)
         {
             var result = _produtoService.GetById(id);
             if (result == null)
@@ -60,7 +69,7 @@ namespace LojaApi.Controller
                 return NotFound();
             }
             _produtoService.Update(result.Id, produto);
-            return Ok(); 
+            return Ok();
         }
 
     }

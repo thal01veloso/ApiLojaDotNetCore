@@ -53,3 +53,11 @@ C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debu
 C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
+C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debug\netcoreapp3.1\xunit.assert.dll
+C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debug\netcoreapp3.1\xunit.core.dll
+C:\Users\ThalesdeSouzaVeloso\Documents\DataLojaProdutos\LojaApi\LojaApi\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
